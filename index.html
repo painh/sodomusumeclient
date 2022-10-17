@@ -13,6 +13,19 @@
             padding: 0;
             text-align: center;
             background-color: black;
+            color: #fff;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 
@@ -23,6 +36,34 @@
         webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" src="sodomusume.html"
         allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated"
         width="1280" height="720"></iframe>
+    <p>핸드의 카드를 드래그&드롭 하여 커맨드를 실행합니다.</p>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>명령</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 전진 / 후진 </td>
+                <td> 상대와의 거리를 조절합니다. 카드마다 전진 후진이 유리한 카드가 있습니다. </td>
+            </tr>
+            <tr>
+                <td>충전</td>
+                <td>카드를 자원으로, 캐릭터의 공격력을 올립니다. 캐릭터마다 충전한 카드의 수에 따른 공격력 차이가 있습니다. 또한, 최대로 충전 가능한 수도 정해져 있습니다.</td>
+            </tr>
+            <tr>
+                <td>필드</td>
+                <td>카드의 설명에 따른 기능을 수행합니다.</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+
 </body>
 
 </html>
