@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sodomusume.png-36a39646458449aa1d79e7601cb14502.stex"
+path="res://.import/sodomusume.png-98ff33e6a15a39866641345df7afcbec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dist/sodomusume.png"
-dest_files=[ "res://.import/sodomusume.png-36a39646458449aa1d79e7601cb14502.stex" ]
+source_file="res://dist/html5/sodomusume.png"
+dest_files=[ "res://.import/sodomusume.png-98ff33e6a15a39866641345df7afcbec.stex" ]
 
 [params]
 
