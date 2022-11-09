@@ -15,8 +15,8 @@
             border: 0 none;
             padding: 0;
             text-align: center;
-            background-color: black;
-            color: #fff;
+            background-color: #fff;
+            color: #000;
         }
 
         table,
@@ -73,8 +73,8 @@
         function resize() {
             const origin_width = 1280;
             const origin_height = 720
-            const width = $(window).width();
-            const height = $(window).height();
+            const width = window.outerWidth;
+            const height = window.outerHeight;
             const origin_ratio = origin_width / origin_height;
             const ratio = width / height;
 
@@ -85,6 +85,8 @@
                 $("#game_drop").width(width);
                 $("#game_drop").height(Math.min(origin_height, origin_height * width / origin_width));
             }
+
+            $("p").html(`${width}, ${height}, ${origin_width}, ${origin_height}`);
         }
 
         $(document).ready(function () {
