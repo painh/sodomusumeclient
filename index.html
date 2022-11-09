@@ -73,8 +73,8 @@
         function resize() {
             const origin_width = 1280;
             const origin_height = 720
-            const width = window.innerWidth;
-            const height = window.innerHeight;
+            const width = $(window).width();
+            const height = $(window).height();
             const origin_ratio = origin_width / origin_height;
             const ratio = width / height;
 
