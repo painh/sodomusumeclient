@@ -80,9 +80,9 @@
 
             if (ratio > origin_ratio) {
                 $("#game_drop").width(Math.min(origin_width, origin_width * height / origin_height));
-                $("#game_drop").height(height);
+                $("#game_drop").height(origin_height);
             } else {
-                $("#game_drop").width(width);
+                $("#game_drop").width(origin_width);
                 $("#game_drop").height(Math.min(origin_height, origin_height * width / origin_width));
             }
 
